@@ -1,0 +1,214 @@
+.mainContainer {
+    width: 100%;
+    height: 100%;
+
+    background-image: url("/images/group_back.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.postContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+
+    padding: 0 2rem 2rem 2rem;
+
+    color: white;
+}
+
+.postLeftField {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.postRightField {
+    width: 37.6rem;
+    height: auto;
+    min-height: 18.1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    padding: 2rem;
+}
+
+.postAvatar {
+    width: 62px;
+    height: 62px;
+
+    border-radius: 100%;
+
+    cursor: pointer;
+}
+
+.commentIcon {
+    width: 2rem;
+    height: 1.9rem;
+
+    cursor: pointer;
+}
+
+.postPrivacy {
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    font-size: 11pt;
+
+    padding: 0.3rem 0.8rem;
+}
+
+.postTitleContainer,
+.postContentContainer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 2rem;
+}
+
+.postContentContainer {
+    align-items: flex-start;
+
+    padding-top: 1.3rem;
+
+}
+
+.postTitle {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+.postPhoto {
+    width: 7.5rem;
+    height: 7.5rem;
+
+    flex-shrink: 0;
+
+    border-radius: 24px;
+
+    background-color: white;
+}
+
+.postContent,
+.eventContent {
+    font-size: 14pt;
+}
+
+/* groups section */
+
+.groupWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.groupContainer {
+    width: 28rem;
+    height: auto;
+    min-height: 12rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    padding: 2rem;
+
+    margin: 0 2rem 2rem 2rem;
+
+    color: white;
+}
+
+.groupTitleContainer {
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 2rem;
+}
+
+.groupFollow {
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    font-size: 11pt;
+
+    padding: 0.3rem 1rem;
+
+    cursor: pointer;
+}
+
+.groupTitle {
+    font-size: 20pt;
+    font-weight: 500;
+}
+
+.groupDescription {
+    text-align: right;
+    /* padding-top: 1.3rem; */
+    font-size: 14pt;
+}
+
+.groupDescriptionText {
+    text-align: right;
+    padding: 1.3rem 0 0.2rem;
+    font-size: 14pt;
+}
+
+.eventContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+}
+
+.eventSectionContainer {
+    margin-bottom: 2rem;
+}
+
+.eventField {
+    width: 37.6rem;
+    height: auto;
+    min-height: 18.1rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    padding: 2rem;
+}

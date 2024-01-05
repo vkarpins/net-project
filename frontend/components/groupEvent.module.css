@@ -1,0 +1,89 @@
+.eventContainer{
+    width: 28rem;
+    height: auto;
+    min-height: 19rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    padding: 2rem;
+    margin: 0 2rem 2rem 2rem;
+
+    color: white;
+}
+
+.radioContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.radioButtonLabel {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.customRadio {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-right: 8px;
+    position: relative;
+}
+
+.radioButtonLabel input[type="radio"]:checked+.customRadio::after {
+    content: '';
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    transform: none; 
+}
+
+.eventTitle{
+    font-size: 18pt;
+    font-weight: 500;
+}
+
+.eventDescription, .eventDate{
+    padding-bottom: 0.2rem;
+}
+
+.eventContentContainer{
+    padding: 1rem 0 1rem;
+}
+
+.eventTimeContainer{
+    padding-bottom: 1rem;
+}
+
+.eventOptionsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.submit{
+    padding: 0.6rem 1.5rem;
+
+    font-size: 14pt;
+
+    color: black;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid white;
+    border-radius: 24px;
+}

@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins:wght@400;500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+    color: black;
+    background-color: teal; /*changed it to something else rn because couldnt see anything written in chat*/
+}
+
+a, button, input {
+    transition: none;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus {
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+input[data-autocompleted] {
+    background-color: transparent !important;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+
+input[type=file]::file-selector-button{
+    font-size: 16pt;
+    border:0 none;
+    background-color: transparent;
+    padding-left: 1rem;
+  }
+  
+input[type=file]::-webkit-file-upload-button{
+    font-size: 16pt;
+    border:0 none;
+    background-color: transparent;
+    padding-left: 1rem;
+  }
+
+ 
+::-webkit-scrollbar {
+    width: 0;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #165E25; 
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #165E25; 
+
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: green; 
+  } 

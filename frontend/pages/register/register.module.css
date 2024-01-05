@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins:wght@400;500&display=swap');
+
+.registerContainer{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("/images/auth_back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: white;
+}
+
+.registerDescription, .registerSubmit{
+    width: 57rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    margin-bottom: 2rem;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+}
+
+.registerDescription{
+    height: 6rem;
+
+    font-size: 30pt;
+    font-weight: bold;
+}
+
+.registerFields{
+    width: 57rem;
+    height: 26rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-bottom: 2rem;
+}
+
+#registerAvatar,
+.registerFields input{
+    width: 24rem;
+    height: 3rem;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    padding: 0.6rem 2.25rem;
+    margin-bottom: 1.5rem;
+
+    font-size: 15pt;
+}
+
+#registerDateField{
+margin-bottom: 0;
+}
+
+.registerFields input::placeholder{
+    color: white;
+}
+
+.registerFields .registerAboutField{
+    height: 7.75rem;
+}
+
+.registerField1, .registerField2{
+    width: 27.50rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+}
+
+.registerSubmit{
+    height: 10rem;
+}
+
+.registerButtonContainer{
+    width: 24rem;
+    height: 3rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+
+    margin-bottom: 1.4rem;
+
+    font-size: 18pt;
+}
+
+.registerLoginButton{
+    font-size: 13.5pt;
+}
+
+.registerAvatarFields{
+    width: 24rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+#registerAvatar{
+    width: 8.6rem;
+    height: 7.75rem;
+
+    margin-bottom: 0;
+}
+
+#registerFile{
+    width: 14rem;
+
+    background-color: white;
+    color: black;
+
+    font-size: 0pt;
+}
+
+.errorMessage {
+    width: 100%;
+    height: 2rem; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red; 
+    font-size: 14pt; 
+    font-weight: bold;
+
+    margin-bottom: 1rem; 
+}

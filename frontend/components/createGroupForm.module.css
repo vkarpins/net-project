@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&family=Poppins:wght@400;500&display=swap');
+
+.groupFormContainer {
+    width: 28rem;
+    height: auto;
+    min-height: 12rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    padding: 2rem;
+    margin: 0 2rem 2rem 2rem;
+
+    color: white;
+}
+
+.groupTitleSubmit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.groupTitle{
+    width: 14.6rem;
+
+    background: none;
+
+    font-size: 21pt;
+
+    color: white;
+}
+
+.contentField{
+    width: 23.5rem;
+    height: 8rem;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    color: white;
+
+    padding: 0.8rem;
+
+    outline: none;
+}
+
+.contentField::placeholder, .groupTitle::placeholder{
+    color: white;
+}
+
+.submit{
+    padding: 0.6rem 1.5rem;
+
+    font-size: 14pt;
+
+    color: black;
+    background-color: white;
+    box-shadow: none;
+    border: 1px solid white;
+    border-radius: 24px;
+}
+
+.groupContainerHidden{
+    display: none;
+}

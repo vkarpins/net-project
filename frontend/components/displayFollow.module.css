@@ -1,0 +1,93 @@
+.mainContainer{
+    width: 30rem;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    color: white;
+
+    padding: 2.3rem 2.1rem 1.3rem;
+    font-size: 18pt;
+
+    max-height: 40vh;
+    overflow-y: auto; 
+
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+    -ms-overflow-style: none;
+}
+
+
+.mainContainer::-webkit-scrollbar {
+    width: 6px; 
+} 
+  
+.mainContainer::-webkit-scrollbar-thumb {
+    background-color: transparent; 
+}
+  
+.mainContainer::-webkit-scrollbar-track {
+    background-color: transparent; 
+}
+
+.resultItem {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.resultNameAvatarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 1rem;
+
+    padding-bottom: 1rem;
+
+    cursor: pointer;
+}
+
+.resultAvatar{
+    width: 52px;
+    height: 52px;
+}
+
+.resultName{
+    color: white;
+
+    font-size: 15pt;
+}
+
+.acceptBut,
+.declineBut {
+    padding: 0.3rem 1.5rem;
+    font-size: 10pt;
+    border-radius: 24px;
+    margin: 3% 5% 3% 5%;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    color: white;
+}
+
+.acceptBut {
+    box-shadow: inset 0px 0px 400px 110px rgba(4, 236, 58, 0.2);
+}
+
+.declineBut {
+    box-shadow: inset 0px 0px 400px 110px rgba(251, 1, 1, 0.2);
+}
+
+.buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

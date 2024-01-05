@@ -1,0 +1,258 @@
+.mainContainer{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("/images/main_back.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.changeBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 5.6rem;
+
+    font-size: 25.5pt;
+    font-weight: 600;
+
+    padding: 3.7rem 0 1.8rem 0;
+}
+
+.changeBarPosts, .changeBarGroups{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.3rem;
+
+    cursor: pointer;
+}
+
+.sliderPosts, .sliderGroups{
+    border-radius: 80px;
+    /* background-color: black; */
+}
+
+.sliderPosts{
+    width: 5.8rem;
+    height: 0.38rem;
+
+}
+
+.sliderGroups{
+    width: 7.8rem;
+    height: 0.38rem;
+}
+
+.mainGrid{
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+.postsField{
+    max-height: 80vh;
+    overflow-y: auto; 
+
+    scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: transparent transparent; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.postsField::-webkit-scrollbar {
+    width: 6px; /* For Chrome, Safari, and Opera */
+}
+  
+  .postsField::-webkit-scrollbar-thumb {
+    background-color: transparent; /* For Chrome, Safari, and Opera */
+}
+  
+  .postsField::-webkit-scrollbar-track {
+    background-color: transparent; /* For Chrome, Safari, and Opera */
+}
+
+.createBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 0.7rem;
+
+    color: white;
+    font-size: 15pt;
+}
+
+.createBarPost, .createBarGroup{
+    width: 12rem;
+    height: 3rem;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+}
+
+.postContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+
+    padding: 0 2rem 2rem 2rem;
+
+    color: white;
+}
+
+.postLeftField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.postRightField{
+    width: 37.6rem;
+    height: auto;
+    min-height: 18.1rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    padding: 2rem;
+}
+
+.postAvatar{
+    width: 62px;
+    height: 62px;
+
+    border-radius: 100%;
+
+    cursor: pointer;
+}
+
+.commentIcon{
+    width: 2rem;
+    height: 1.9rem;
+
+    cursor: pointer;
+}
+
+.postTitleContainer, .postContentContainer{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    gap: 2rem;
+}
+
+.postContentContainer{
+    align-items: flex-start;
+
+    padding-top: 1.3rem;
+
+}
+
+.postPrivacy{
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    font-size: 11pt;
+
+    padding: 0.3rem 0.8rem;
+}
+
+.postTitle, .groupTitle{
+    font-size: 20pt;
+
+    font-weight: 500;
+}
+
+.postPhoto{
+    width: 7.5rem;
+    height: 7.5rem;
+
+    flex-shrink: 0;
+
+    border-radius: 24px;
+
+    background-color: white;
+}
+
+.postContent, .groupDescription{
+    font-size: 14pt;
+}
+
+.noPostsWrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.noPosts{
+    font-size: 20pt;
+    font-weight: 600;
+}
+
+.groupContainer{
+    width: 28rem;
+    height: auto;
+    min-height: 12rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    padding: 2rem;
+    margin: 0 2rem 2rem 2rem;
+
+    color: white;
+}
+
+.groupFollow{
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+    font-size: 11pt;
+
+    padding: 0.3rem 1rem;
+}
+
+.groupDescription{
+    text-align: right;
+
+    padding-top: 1.3rem;
+}

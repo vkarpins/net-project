@@ -1,0 +1,20 @@
+.footerWrap{
+    /* display: flex;
+    justify-content: center; */
+    margin-top: auto;
+}
+
+.footerContainer{
+    /* position: fixed;
+    bottom: 0;
+    gap: 20rem; */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    color: white;
+    font-size: 10pt;
+    padding: 5rem 8rem 3rem;
+}

@@ -1,0 +1,124 @@
+.commentRightField, .addCommentField, .uploadImage{
+    background: transparent;
+    border: 1px solid white;
+    backdrop-filter: blur(10px);
+    border-radius: 24px;
+
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, .2);
+
+}
+
+.commentRightField{
+    width: 37.6rem;
+    height: 18.1rem;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+}
+
+.commentsEnterFields{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-bottom: 1.5rem;
+}
+
+.addCommentField{
+    width: 20rem;
+    height: 3rem;
+
+    padding: 0.8rem;
+
+    outline: none;
+}
+
+.addCommentField::placeholder{
+    color: white;
+}
+
+.uploadImage{
+    padding: 0.6rem 1rem;
+    text-align: center;
+
+    background-size: cover;
+}
+
+.pointer, .uploadImage{
+    cursor: pointer;
+}
+
+.submit{
+    padding: 0.6rem 2rem;
+    border-radius: 24px;
+
+    font-size: 14pt;
+
+    color: black;
+    background-color: white;
+    box-shadow: none;
+}
+
+.commentContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    gap: 1rem;
+
+    padding-bottom: 1.5rem;
+}
+
+.commentPostedContentContainer{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0.8rem;
+
+    padding-top: 0.5rem;
+}
+
+.commentPostedAvatar{
+    width: 32px;
+    height: 32px;
+
+    border-radius: 100%;
+}
+
+.commentPostedPhoto{
+    width: 80px;
+    height: 80px;
+
+    border-radius: 24px;
+}
+
+.creator{
+    font-size: 15pt;
+}
+
+.comments{
+    max-height: 80vh;
+    overflow-y: auto; 
+
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent; 
+    -ms-overflow-style: none; 
+}
+
+.comments::-webkit-scrollbar {
+    width: 6px;
+}
+  
+.comments::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+  
+.comments::-webkit-scrollbar-track {
+    background-color: transparent;
+}

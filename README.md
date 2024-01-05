@@ -1,6 +1,6 @@
 # Social Network Project
 
-This is a social network project that includes both frontend and backend components. It is designed to provide a platform for users to connect, share posts, and interact with each other.
+This is a social network project designed to provide a platform for users to connect, share posts, and interact with each other.
 
 ## Technologies Used
 
@@ -31,11 +31,6 @@ Building docker image:
 
 Running docker image:
 - docker run -p 127.0.0.1:8080:8080/tcp -p 3000:3000/tcp social-network
-
-
-## Audit questions here 
-
-[Link to audit](https://01.kood.tech/git/root/public/src/branch/master/subjects/social-network/audit)
 
 ## Authors
 - vkarpins (capten)

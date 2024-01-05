@@ -1,0 +1,15 @@
+{
+  "name": "social-network",
+  "version": "0.1.0",
+  "homepage": "https://vkarpins.github.io/social-network",
+  "private": true,
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}

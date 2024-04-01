@@ -1,4 +1,4 @@
-# Social Network Project
+# Net Project
 
 This is a social network project designed to provide a platform for users to connect, share posts, and interact with each other.
 

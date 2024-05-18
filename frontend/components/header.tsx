@@ -36,7 +36,7 @@ const Header: React.FC<HeaderProps> = ({ userInfo, token, setErrorMessage }) => 
         <header>
             <nav className={s.navBar}>
                 <div className={s.refreshButton}>
-                    <a href="/mainPage">Social Network</a>
+                    <a href="/mainPage">Chapter</a>
                 </div>
                 <div className={s.searchContainer}>
                     <SearchBar/>

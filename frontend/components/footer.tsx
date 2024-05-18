@@ -8,19 +8,18 @@ const Footer: React.FC = () => {
         <div className={s.aboutUs}>
             <p><b>About us:</b></p>
             <br></br>
-            <p>The best social network ever, where even your granny</p>
-            <p>will figure out how to post her meatball soup recipe.</p>
-            <p>Click «Create Post» and join our community.</p>
+            <p>Chapter believes that reading is a powerful tool for learning, growth and connection.</p>
+            <p>Our mission is to create a vibrant online community for book loversю</p>
         </div>
         <div className={s.rights}>
-            <p>Used images were taken from Firewatch.</p>
+            <p>Created by passionate readers for passionate readers.</p>
             <br></br>
-            <p>All rights reserved ©.</p>
+            <p>© 2024 Chapter.</p>
         </div>
         <div className={s.authors}>
             <p><b>Authors:</b></p>
             <br></br>
-            <p><a href="https://01.kood.tech/git/Deivijy" target="_blank">Deivijy</a>, <a href="https://01.kood.tech/git/eotchenk" target="_blank">Elina Otchenko</a>, <a href="https://github.com/vkarpins" target="_blank">vkarpins</a>, <a href="https://01.kood.tech/git/Katrin.Pruul" target="_blank">Katrin.Pruul.</a></p>
+            <p>Chapter Team.</p>
         </div>
     </div>
 </footer>

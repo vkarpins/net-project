@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
             <p><b>About us:</b></p>
             <br></br>
             <p>Chapter believes that reading is a powerful tool for learning, growth and connection.</p>
-            <p>Our mission is to create a vibrant online community for book loversю</p>
+            <p>Our mission is to create a vibrant online community for book lovers.</p>
         </div>
         <div className={s.rights}>
             <p>Created by passionate readers for passionate readers.</p>

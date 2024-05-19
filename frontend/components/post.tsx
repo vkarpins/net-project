@@ -18,6 +18,13 @@ export default function Post({ id, userId, title, content, photo, privacy, profi
             [postId]: !prevVisibility[postId],
         }));
     };
+
+    const formatContent = (content: string) => {
+        return content.split('\n').map((paragraph, index) => (
+          <p key={index}>{paragraph}</p>
+        ));
+      };
+
     return (
         <>
             <div key={id} className={s.postContainer}>
@@ -54,7 +61,7 @@ export default function Post({ id, userId, title, content, photo, privacy, profi
                                     className={s.postPhoto}
                                 />
                             )}
-                            <div className={s.postContent}>{content}</div>
+                            <div className={s.postContent}>{formatContent(content)}</div>
                         </div>
                     </div>
                 )}
